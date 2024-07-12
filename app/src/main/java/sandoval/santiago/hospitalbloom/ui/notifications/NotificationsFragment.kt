@@ -29,8 +29,26 @@ class NotificationsFragment : Fragment() {
         val root: View = binding.root
 
 
+        //Aqui todo
+
+        val txtNombre = binding.txtNombre
+        val txtApellidos = binding.txtApellido
+        val txtEdad = binding.txtEnfermedad
+        val txtEnfermedad = binding.txtEnfermedad
+        val txtNumHabitacion = binding.txtNumHabitacion
+        val txtNumCama = binding.txtNumCama
+        val spMedicamentos = binding.spMedicamentos
+        val txtMedicacionHora = binding.txtMedicacionHora
+        val btnRegistrarPaciente = binding.btnRegistrarPaciente
+
+
+
+
         return root
     }
+
+
+
 
 
 
