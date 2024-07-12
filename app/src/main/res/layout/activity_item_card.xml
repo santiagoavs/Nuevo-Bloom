@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:backgroundTint="#000000"
+    android:backgroundTint="#FFFFFF"
     app:cardCornerRadius="20dp"
     app:cardElevation="5dp"
     app:cardUseCompatPadding="true"
@@ -13,7 +13,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="206dp"
+        android:layout_height="223dp"
+        android:background="#FFFFFF"
         android:orientation="vertical"
         android:padding="10dp">
 
@@ -23,7 +24,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/martel_sans_bold"
             android:text="Nombre del paciente"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold" />
 
@@ -34,7 +35,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/martel_sans_bold"
             android:text="Edad"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -44,7 +45,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/martel_sans_bold"
             android:text="Enfermedad"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -54,7 +55,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/martel_sans_bold"
             android:text="Número de habitación"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <TextView
@@ -64,12 +65,12 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/martel_sans_bold"
             android:text="Hora de medicación"
-            android:textColor="#FFFFFF"
+            android:textColor="#000000"
             android:textSize="14sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:gravity="end"
             android:orientation="horizontal">
 
