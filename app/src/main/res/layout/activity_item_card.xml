@@ -78,8 +78,8 @@
             android:text="Número de habitación"
             android:textColor="#000000"
             android:textSize="14sp"
-            app:layout_constraintTop_toBottomOf="@+id/tvItemMedicacionHora"
-            tools:layout_editor_absoluteX="-2dp" />
+            app:layout_constraintEnd_toStartOf="@+id/img_borrar"
+            app:layout_constraintTop_toBottomOf="@+id/tvItemMedicacionHora" />
 
         <TextView
             android:id="@+id/tvItemMedicacionHora"
